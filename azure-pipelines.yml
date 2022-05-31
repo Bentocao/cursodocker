@@ -19,7 +19,7 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Azure subscription 1(cafe6637-ea36-4faa-9562-b34c56912f22)'
     appType: 'webAppLinux'
-    WebAppName: 
+    WebAppName: cursodocker
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     RuntimeStack: 'NODE|16-lts'
 - script: |
